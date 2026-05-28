@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Chill, Factor">
+    <meta name="keywords" content="HTML, CSS, Chill, Factor">
+    <meta name="author" content="Sebastian Vale">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="200">
+    <title>Menu</title>
+	
+
+	<link rel="icon" type="image/png" href="conecompany2.png">
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 400px;
+            font-size: 50px;
+            background-image: linear-gradient(#21D4FD, #B721FF);
+            color: white;
+        }
+
+        /* LOGO */
+        #logocontainer {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 20px;
+        }
+
+        #logocontainer img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        /* NAME */
+        #nameofcompany {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 40px;
+        }
+
+        /* BUTTON AREA */
+        #buttonholder {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #buttonholder button {
+            padding: 8px 14px;
+            font-size: 15px;
+            border: none;
+            border-radius: 6px;
+            background-color: white;
+            color: #333;
+            cursor: pointer;
+        }
+
+        #buttonholder button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div id="logocontainer">
+            
+            <img src="images/conecompany2.png" alt="Cone Company 2" width="600px" height="200px">
+        </div>
+
+        <div id="nameofcompany">
+            
+        </div>
+
+        <div id="buttonholder">
+            
+			<center><a href="menu.html"><button>Menu</button></a></center>
+            
+			
+			<center><a href="calander.html"><button>Calendar</button><a></center>
+			
+			
+			<center><a href="contact.html"><button>Contact Us</button><a></center>
+       
+	   </div>
+    </header>
+
+</body>
+</html>
+
+
+	<style>
+	
+		body{
+			font-family: Italianno, sans serif;
+			background-color: powderblue;
+			}
+			
+		.image-row{
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-top: 30px;
+			padding: 0 20px;
+			}
+			
+		.description{
+			font-size: 30px;
+			margin-top: 20px;
+			}
+			
+		.image-box{
+			position: relative;
+			}
+		
+		.image-box img{
+			width: 100%;
+			height: auto;
+			display: block;
+			}
+			
+		.overlay-button{
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			padding: 10px 20px;
+			font-size: 18px;
+			background: white;
+			border: none;
+			border-radius: 25px;
+			cursor: pointer;
+			box-shadow: 0 0 10px rgba(180,0,255,0.8);
+			transition: box-shadow 0.3s ease, transform 0.2s ease;
+			}
+			
+		.overlay-button:hover{
+			box-shadow: 0 0 18px rgba(255, 20, 147, 0.9),
+			0 0 30px rgba(255, 105, 180, 0.7);
+			transform: scale(1.05);
+			}
+			
+		.home-button{
+			text-align: left;
+			margin: 20px;
+			}
+			
+		.home-button button{
+		padding: 8px 16px;
+		font-size: 18px;
+		border-radius: 8px;
+		border: none;
+		cursor: pointer;
+		}
+		
+		
+         .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+          }
+			
+		.side-by-side{
+			display: flex;
+			gap: 20px;
+			alog-items: center;
+			}
+			
+		.item-row{
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			gap: 30px;
+			padding: 20px;
+			}
+			
+		.image-colum{
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			}
+			
+		.text-colum{
+			display: flex;
+			flex-direction: column;
+			align-ityems: flex-start;
+			font-size: 28px;
+			margin-top: 0;
+			}
+			
+		.product-row{
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			gap: 40px;
+			margin-top: 40px;
+			padding: 0 30px;
+			}
+			
+		.left-image img{
+			width: 600px;
+			height: auto;
+			}
+			
+		.right-block, .left-block{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 600px;
+			}
+			
+		.right-description{
+			font-size: 30px;
+			text-align: center;
+			margin-top: 10px;
+			}
+			
+		.top-right-button{
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			z-index: 9999;
+			}
+			
+			
+		.left-block img, .right-block img{
+			width: 100%;
+			height: auto;
+			}
+			
+		.left-description{
+			font-size: 30px;
+			text-align: center;
+			margin-top: 10px;
+			}
+			
+			
+		.product-row{
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+			gap: 40px;
+			margin-top: 40px;
+			paadding: 0 03px;
+			}
+		</style>
+		
+	</head>
+
+<body>
+
+
+		<div class="product-row">
+
+    <div class="left-block">
+        <img src="images/snowconeone.jpg" alt="Rainbow Doom" height="50px" width="50px;" >
+		
+		<center><h3> 10.00$ </h3></center>
+		<p class="description"> This brand new release is called the rainbow doom that has all of the flavors combined into one amazing taste.
+				
+    </div>
+
+    <div class="right-block">
+        <img src="images2/forthofjuly.jpg" alt="Blue/Red Snowcone" height="100px" width="50px;">
+<center><h3> 10.00$ </h3></center>
+        <p class="right-description">
+            This flavor is called the cono di neve blue rosso which has amazing taste and lets take your tasting a fruity flavor adventure!
+			
+		
+        </p>
+    </div>
+
+</div>
+
+		<div class="product-row">
+
+<div class="left-block">
+
+		<img src="images2/bluelemonade.jpg" alt="Blue Lemonade" height="100px;" width="50px;">
+		
+		<h3> 10.00$ </h3>
+		<p class="left-description"> This flavor is called limonada azul which is a mix of bluberry and lemonade which has a sweet and sour taste
+		
+		
+		</p>
+		
+	</div>
+		
+			<div class="right-block">
+		
+		
+			<img src="images2/tangerinedream.jpg" height="100px;" width="50px;">
+
+<h3><center> 10.00$ </h3></center>
+				<p class="right-description"> This flavor is called the tangerine dream and it taste like a tangerine soda. It even fizzes in your mouth!
+				
+				
+				
+			<div class="third-block">
+			
+				<img src="images2/gushergreen.jpg" height="100px;" width="50px;">
+				
+				<center><h3> 10.00$ </h3></center>
+					
+					<p class="third description"> This flavor is called the gusher green and it taste just like a green gusher!
+
+</body>
+			<div class="top-right-button">
+			
+			<a href="mobilesnowcone.html">
+			<button class="btn-grad"> Go Back Home </button>
+		
